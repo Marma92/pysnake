@@ -58,7 +58,7 @@ if __name__ == "__main__":
     framerate = 10    # taux de rafraichissement du jeu en images/s
     direction = (0, 0)  # direction initiale du serpent
     pommes = [] # liste des coordonnées des cases contenant des pommes
-    serpent = [(0, 0),(0, 1),(0, 2),(1, 2)] # liste des coordonnées de cases adjacentes décrivant le serpent
+    serpent = [(0, 0)] # liste des coordonnées de cases adjacentes décrivant le serpent
     cree_fenetre(taille_case * largeur_plateau,
                  taille_case * hauteur_plateau)
 
